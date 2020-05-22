@@ -1,0 +1,49 @@
+{
+  "name": "konami-vue-component",
+  "version": "1.0.0",
+  "description": "A Vue.js component to emit an event for the Konami code sequence",
+  "author": {
+    "name": "Rhys Botfield",
+    "email": "rhys@sproutdesk.co.uk"
+  },
+  "contributors": [
+    {
+      "name": "Rhys Botfield",
+      "email": "rhys@sproutdesk.co.uk"
+    }
+  ],
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "dist/*",
+    "src/*"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SproutDesk/vue-konami-component.git"
+  },
+  "keywords": [
+    "vue",
+    "events",
+    "global",
+    "window",
+    "document",
+    "konami",
+    "konami code"
+  ],
+  "scripts": {
+    "build": "rollit",
+    "lint": "eslint --color --ext=js,vue index.js"
+  },
+  "homepage": "https://github.com/SproutDesk/konami-vue-component#readme",
+  "bugs": {
+    "url": "https://github.com/SproutDesk/konami-vue-component/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue": "^2.6.11"
+  }
+}
